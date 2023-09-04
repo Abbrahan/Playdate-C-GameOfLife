@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"pd_api.h": "c",
+			"pd_api_display.h": "c",
+			"pd_api_gfx.h": "c"
+		}
+	}
+}

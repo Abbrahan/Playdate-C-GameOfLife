@@ -1,0 +1,1 @@
+/usr/bin/gcc -fPIC -g -shared -Wl,-soname,libGame_Of_Life.so -o libGame_Of_Life.so CMakeFiles/Game_Of_Life.dir/src/main.c.o 

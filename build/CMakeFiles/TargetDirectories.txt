@@ -1,0 +1,3 @@
+/home/jack/Documents/Programming/Playdate/Projects/Playdate-C-GameOfLife/build/CMakeFiles/Game_Of_Life.dir
+/home/jack/Documents/Programming/Playdate/Projects/Playdate-C-GameOfLife/build/CMakeFiles/edit_cache.dir
+/home/jack/Documents/Programming/Playdate/Projects/Playdate-C-GameOfLife/build/CMakeFiles/rebuild_cache.dir

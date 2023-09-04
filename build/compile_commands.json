@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/jack/Documents/Programming/Playdate/Projects/Playdate-C-GameOfLife/build",
+  "command": "/usr/bin/gcc -DGame_Of_Life_EXPORTS -DTARGET_EXTENSION=1 -DTARGET_SIMULATOR=1 -I/home/jack/Documents/Programming/Playdate/PlaydateSDK-2.0.3/C_API -g -std=gnu11 -fPIC -Wall -Wstrict-prototypes -Wno-unknown-pragmas -Wdouble-promotion -ggdb -O0 -o CMakeFiles/Game_Of_Life.dir/src/main.c.o -c /home/jack/Documents/Programming/Playdate/Projects/Playdate-C-GameOfLife/src/main.c",
+  "file": "/home/jack/Documents/Programming/Playdate/Projects/Playdate-C-GameOfLife/src/main.c",
+  "output": "CMakeFiles/Game_Of_Life.dir/src/main.c.o"
+}
+]

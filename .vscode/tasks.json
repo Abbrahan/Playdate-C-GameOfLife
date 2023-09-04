@@ -15,7 +15,7 @@
         {
             "label": "Playdate: Run",
             "type": "shell",
-            "command": "$PLAYDATE_SDK_PATH/bin/PlaydateSimulator \"C_Template.pdx\""
+            "command": "$PLAYDATE_SDK_PATH/bin/PlaydateSimulator \"Game_Of_Life.pdx\""
         },
         {
             "label": "Playdate: Build and Run",
