@@ -15,6 +15,7 @@ static int update(void* userdata);
 static int swapDarkMode(void* userdata, PDMenuItem* menuItem);
 const char* fontpath = "/System/Fonts/Asheville-Sans-14-Bold.pft";
 LCDFont* font = NULL;
+PDMenuItem* darkMode = NULL;
 
 #define TEXT_WIDTH 86
 #define TEXT_HEIGHT 16
@@ -24,6 +25,8 @@ int y = (LCD_ROWS-TEXT_HEIGHT)/2;
 int dx = 1;
 int dy = 2;
 int darkModeValue = 0;
+
+
 
 #ifdef _WINDLL
 __declspec(dllexport)
@@ -57,8 +60,6 @@ static int update(void* userdata)
 	pd->graphics->setFont(font);
 	pd->graphics->drawText("Hello World!", strlen("Hello World!"), kASCIIEncoding, x, y);
 
-	darkModeValue = pd->system->getMenuItemValue(menuItem);
-
 	if(darkModeValue == 1) {
 		pd->graphics->drawText("On", strlen("On"), kASCIIEncoding, 20, 0);
 	}
@@ -89,5 +90,7 @@ static int swapDarkMode(void* userdata, PDMenuItem* menuItem)
 	darkModeValue = pd->system->getMenuItemValue(menuItem);
 
 	pd->display->setInverted(darkModeValue);
+
+	return 1;
 }
 
